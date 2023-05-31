@@ -1,0 +1,48 @@
+[
+  {
+  "_id": {
+    "$oid": "646e2a1b691391f6b17aa39f"
+  },
+  "nombre": "Naughty Dog"
+},{
+  "_id": {
+    "$oid": "646e2a1b691391f6b17aa3a0"
+  },
+  "nombre": "Rockstar Games"
+},{
+  "_id": {
+    "$oid": "646e2a1b691391f6b17aa3a1"
+  },
+  "nombre": "Bandai Namco"
+},{
+  "_id": {
+    "$oid": "646e2a1b691391f6b17aa3a2"
+  },
+  "nombre": "Insomniac"
+},{
+  "_id": {
+    "$oid": "646e2a1b691391f6b17aa3a3"
+  },
+  "nombre": "From Software"
+},{
+  "_id": {
+    "$oid": "646e2a1b691391f6b17aa3a4"
+  },
+  "nombre": "Santa Monica Studio"
+},{
+  "_id": {
+    "$oid": "646e2a1b691391f6b17aa3a5"
+  },
+  "nombre": "Kojima Productions"
+},{
+  "_id": {
+    "$oid": "646e2a1b691391f6b17aa3a6"
+  },
+  "nombre": "Bend Studio"
+},{
+  "_id": {
+    "$oid": "646e2a1b691391f6b17aa3a7"
+  },
+  "nombre": "Sucker Punch"
+}
+]

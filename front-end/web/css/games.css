@@ -1,0 +1,279 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: black;
+    color: white;
+    font-family: 'Hind';
+}
+
+/* Header de games */
+#search{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 50%;
+}
+
+#search input{
+    width: 75%;
+    height: 45px;
+    border: 2px solid black;
+    border-radius: 15px;
+    padding: 10px;
+    font-size: 18px;
+}
+
+#shopping{
+    width: 5%;
+    color: black;
+    font-size: 24px;
+}
+
+#user{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    width: 10%;
+    padding: 7px;
+    background-color:white;
+    color: black;
+    border: 1px solid black;
+    border-radius: 20px;
+    margin-right: 10px;
+
+    cursor: pointer;
+}
+
+#user p{
+    font-size: 20px;
+}
+
+/* Barra de interaccion (plataforma, grid...) */
+#interaccion{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 10vh;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    background-color: white;
+    color: black;
+}
+
+#opciones{
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#filtrar{
+    display: flex;
+    justify-content: center;
+}
+
+#filtrar>#orderFilter{
+    width: 100%;
+    height: 2rem;
+
+    font-size: 16px;
+}
+
+#filtrar>i{
+    font-size: 1.75rem;
+    margin-right: 5px;
+}
+
+#grid-general{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#grid-general .cart-shopping-container{
+    width: 20%;
+    justify-content: center;
+    color: white;
+    text-align: center;
+    border-left: 2px solid white;
+}
+
+#grid-general .cart-shopping-container h2{
+    border-bottom: 2px solid white;
+    font-size: 30px;
+}
+
+/* Grid de los juegos (INFO) */
+
+#grid-info{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 100%;
+}
+
+#grid-info #descripcion-juego{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    text-align: center;
+
+    margin-top: 5px;
+    font-size: 16px;
+
+    border: 1px solid white;
+    padding: 0.5rem;
+}
+
+/* Grid de los juegos */
+#grid-games{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    background-color: rgb(0, 0, 0);
+    color:white;
+
+    width: 100%;
+}
+
+.card {
+    padding: 2rem 25%;
+    width: 18rem;
+    position: relative;
+}
+
+.card img {
+    width: 100%;
+}
+
+.card h1{
+    font-size: 30px;
+    text-align: center;
+}
+
+#developer{
+    font-size: 24px;
+}
+
+.plataforma{
+    font-size: 25px;
+}
+
+.p-Xbox{
+    background-color: green;
+    color: white;
+    text-align: center;
+}
+
+.p-Play-Station{
+    background-color: rgb(30, 30, 255);
+    color: white;
+    text-align: center;
+}
+
+.p-Pc{
+    background-color: rgb(141, 141, 0);
+    color: white;
+    text-align: center;
+}
+
+/* Pegi y el precio */
+
+#detalles-tecnicos{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+.pegi{
+    width: 30px;
+    padding: 4px;
+    border-radius: 5px;
+    margin-right: 0.5rem;
+    font-size: 25px;
+
+    text-align: center;
+}
+
+.age-16 {
+    background-color: orange;
+}
+
+.age-18 {
+    background-color: rgb(191, 0, 0);
+}
+
+.precio{
+    width: 30%;
+    font-size: 35px;
+}
+
+/* INTERACCIÓN DEL BOTÓN DE COMPRAR */
+#interaction{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buy-btn{
+    width: 50%;
+    height: 4vh;
+    
+    cursor: pointer;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+
+    font-size: 20px;
+    font-weight: bold;
+
+    margin: 10px 5px;
+}
+
+/* Estrellas */
+#form {
+width: 250px;
+margin: 0 auto;
+height: 50px;
+}
+
+#form label {
+font-size: 3rem;
+}
+
+input[type="radio"] {
+display: none;
+}
+
+label {
+color: rgb(91, 91, 91);
+font-size: 1.5rem;
+}
+
+.clasificacion {
+direction: rtl;
+unicode-bidi: bidi-override;
+}
+
+label:hover,
+label:hover ~ label {
+color: white;
+cursor: pointer;
+}
+
+input[type="radio"]:checked ~ label {
+color: white;
+}
+

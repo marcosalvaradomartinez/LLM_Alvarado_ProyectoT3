@@ -1,0 +1,135 @@
+[
+    {
+        "nombre":"THE LAST OF US PART II ",
+        "imagen":"the-last-of-us-part-ii.jpg",
+        "desarrollador":{
+            "$oid": "646e2a1b691391f6b17aa39f"
+        },
+        "pegi":18,
+        "precio":40,
+        "plataforma":"Play-Station",
+        "descripcion":"Cinco años después de su peligroso viaje a través de unos Estados Unidos pospandemia, Ellie y Joel logran establecerse en Jackson, Wyoming. Vivir entre una próspera comunidad de sobrevivientes les ha concedido paz y estabilidad, a pesar de la amenaza constante de los infectados y de otros sobrevivientes más desesperados. Cuando un evento traumático interrumpe esa paz, Ellie se embarca en un viaje incesante para obtener justicia y llegar a un cierre. A medida que caza a los responsables uno por uno, deberá enfrentarse a las devastadoras repercusiones físicas y emocionales de sus acciones." 
+    },
+    {
+        "nombre":"RED DEAD REDEMPTION II",
+        "imagen":"red-dead2.jpg",
+        "desarrollador":{
+            "$oid": "646e2a1b691391f6b17aa3a0"
+        },
+        "pegi":18,
+        "precio":35,
+        "plataforma":"Pc",
+        "descripcion":"América, 1899. El ocaso del Salvaje Oeste ha comenzado y las fuerzas de la ley dan caza a las últimas bandas de forajidos. Los que no se rinden o sucumben, son asesinados. Tras un desastroso atraco fallido en la ciudad de Blackwater, Arthur Morgan y la banda de Van der Linde se ven obligados a huir. Con agentes federales y los mejores cazarrecompensas de la nación pisándoles los talones, la banda deberá atracar, robar y luchar, para sobrevivir en su camino por el escabroso territorio del corazón de América. Mientras las divisiones internas aumentan y amenazan con separarlos a todos, Arthur deberá elegir entre sus propios ideales y la lealtad a la banda que lo vio crecer."
+    },
+    {
+        "nombre":"ELDEN RING",
+        "imagen":"elden-ring.jpg",
+        "desarrollador":{
+                "$oid": "646e2a1b691391f6b17aa3a1"
+        },
+        "pegi":16,
+        "precio":60,
+        "plataforma":"Xbox",
+        "descripcion":"La Orden Dorada se ha roto. Levántate, empañado y déjate guiar por la gracia para blandir el poder del Anillo Elden y convertirte en un Señor Elden en las Tierras Intermedias. En las Tierras Intermedias gobernadas por la Reina Marika la Eterna, el Anillo de Elden, la fuente del Erdtree, ha sido destruido. La descendencia de Marika, todos semidioses, reclamó los fragmentos del Anillo de Elden conocidos como las Grandes Runas, y la mancha loca de su fuerza recién descubierta desencadenó una guerra: La Destrucción. Una guerra que significó el abandono por parte de la Gran Voluntad. Y ahora la guía de la gracia llegará a los Deslucidos que fueron despreciados por la gracia del oro y exiliados de las Tierras Intermedias. Muerto que aún vives, tu gracia perdida hace mucho tiempo, sigue el camino hacia las Tierras Intermedias más allá del mar brumoso para pararte ante el Anillo de Elden. Y conviértete en el Señor Elden."
+
+    },
+    {
+        "nombre":"SPIDER-MAN",
+        "imagen":"Marvels-Spiderman-PS4.jpg",
+        "desarrollador":{
+            "$oid": "646e2a1b691391f6b17aa3a2"
+        },
+        "pegi":16,
+        "precio":20,
+        "plataforma":"Play-Station",
+        "descripcion":"La historia, totalmente original y nunca antes contada, nos pone en la piel de un Peter Parker mucho más experimentado y maduro que deberá lidiar con los problemas que suponen el tener que salvar a una ciudad entera como Manhattan de las atrocidades de los peores criminales y compatibilizarlo con su vida personal."
+    },
+    {
+        "nombre":"SPIDER-MAN:MILES MORALES",
+        "imagen":"spidermanmorales.jpg",
+        "desarrollador":{
+            "$oid": "646e2a1b691391f6b17aa3a2"
+        },
+        "pegi":16,
+        "precio":25,
+        "plataforma":"Play-Station",
+        "descripcion":"Encarnando a Morales y no a Peter Parker, viajaremos por una ciudad de Nueva York mejor recreada y detallada, combatiendo el crimen y luchando contra los habituales villanos de los cómics de Marvel."
+    },
+    {
+        "nombre":"BLOODBORNE",
+        "imagen":"bloodborne.jpg",
+        "desarrollador":{
+            "$oid": "646e2a1b691391f6b17aa3a3"
+        },
+        "pegi":16,
+        "precio":30,
+        "plataforma":"Play-Station",
+        "descripcion":"Bloodborne tiene lugar en la antigua ciudad de Yharnam, conocida por albergar un remedio médico hecho con un transplante de sangre, una 'panacea' que se dice puede curar cualquier enfermedad. Durante años, muchos viajeros peregrinaron hacia allá buscando un remedio para sus males, siendo el cazador uno de ellos. Al llegar allí, no obstante, se descubrió que fue invadida por una plaga que ha transformado a la mayor parte de su población en bestias terroríficas."
+    },
+    {
+        "nombre":"THE WITCHER 3:WILD HUNT",
+        "imagen":"thewitcher3.jpg",
+        "desarrollador":{
+            "$oid": "646e2a1b691391f6b17aa3a1"
+        },
+        "pegi":18,
+        "precio":45,
+        "plataforma":"Xbox",
+        "descripcion":"El mundo está en llamas: el Imperio de Nilfgaard se adentra en el corazón de los Reinos del Norte. Geralt de Rivia está siendo perseguido por un enemigo que no conoce la piedad: la Cacería salvaje, una mítica cuadrilla de jinetes espectrales, portadores de la destrucción y la muerte, capaz de destruir ciudades enteras de la noche a la mañana. Geralt, que tendrá sus propios intereses, deberá atravesar un laberinto de enemigos para encontrar y proteger a la persona descrita en una antigua profecía. El jugador se adentrará en un mundo sombrío y despiadado, que fijará nuevos estándares por su tamaño, por la complejidad de su ecosistema y por su evolución no lineal."
+    },
+    {
+        "nombre":"GOD OF WAR",
+        "imagen":"godofwar.jpg",
+        "desarrollador":{
+            "$oid": "646e2a1b691391f6b17aa3a4"
+        },
+        "pegi":18,
+        "precio":10,
+        "plataforma":"Play-Station",
+        "descripcion":"Kratos, que ha dejado atrás el mundo de los dioses, deberá adaptarse a tierras que no le son familiares, afrontar peligros inesperados y aprovechar una segunda oportunidad de ejercer como padre. Junto a su hijo Atreus se aventurará en lo más profundo e inclemente de las tierras de Midgard y luchará por culminar una búsqueda profundamente personal."
+    },
+    {
+        "nombre":"DEATH-STRANDING",
+        "imagen":"deathstranding.jpg",
+        "desarrollador":{
+            "$oid": "646e2a1b691391f6b17aa3a5"
+        },
+        "pegi":18,
+        "precio":40,
+        "plataforma":"Pc",
+        "descripcion":"En un futuro cercano, unas misteriosas explosiones han sacudido la Tierra, provocando una serie de eventos sobrenaturales conocidos como el Death Stranding. Unas criaturas insólitas invaden el paisaje y la extinción masiva es inminente. Sam deberá atravesar el devastado páramo para salvar a la humanidad de una aniquilación inminente."
+    },
+    {
+        "nombre":"DAYS GONE",
+        "imagen":"daysgone.jpg",
+        "desarrollador":{
+                "$oid": "646e2a1b691391f6b17aa3a6"
+        },
+        "pegi":18,
+        "precio":25,
+        "plataforma":"Play-Station",
+        "descripcion":"Una pandemia mundial ha diezmado a la población, convirtiendo a millones de personas en criaturas salvajes y hambrientas, conocidas como engendros tras infectarse por un peligroso virus. Los supervivientes han abandonado las ciudades para buscar refugio en el desierto creando zonas seguras. Dos años después, un motero llamado Deacon St. John se encuentra entre los supervivientes."
+    },
+    {
+        "nombre":"DARK SOULS III",
+        "imagen":"darksouls3.jpg",
+        "desarrollador":{
+            "$oid": "646e2a1b691391f6b17aa3a1"
+        },
+        "pegi":16,
+        "precio":12,
+        "plataforma":"Pc",
+        "descripcion":"Sí, en efecto. Se llama Lothric, donde convergen las tierras transitorias de los Señores de la Ceniza. Cuando viajan hacia el norte, los peregrinos descubren la verdad sobre las viejas historias. 'La llama se apaga, y los Señores pierden sus tronos.' Cuando el enlace del fuego peligra, la campana repica y los viejos Señores de la Ceniza abandonan sus tumbas. Aldrich, el Santo de la Oscuridad. La Legión de los no muertos de Farron, los Vigilantes del Abismo. Y el solitario señor de la Capital Profanada, Yhorm, el Gigante. Pero, en verdad... Los Señores abandonarán sus tronos, y los Latentes se alzarán. No muertos malditos y sin nombre que no merecen ni ser ceniza. Y así ocurre. Que la ceniza busca ascuas."
+    },
+    {
+        "nombre":"GHOST OF TSUSHIMA",
+        "imagen":"ghosttsu.jpg",
+        "desarrollador":{
+            "$oid": "646e2a1b691391f6b17aa3a7"
+        },
+        "pegi":18,
+        "precio":50,
+        "plataforma":"Play-Station",
+        "descripcion":"Ambientada en 1274 en la isla epónima de Tsushima, el juego gira en torno al samurái Jin Sakai (Daisuke Tsuji), uno de los pocos supervivientes de la primera invasión mongola a Japón. Jin tendrá que dominar un nuevo estilo de lucha, el camino del Fantasma, para derrotar a las fuerzas mongolas y luchar por la libertad de su pueblo y de la isla. Jin se ve envuelto en un conflicto moral, ya que según el estricto código samurái (Bushido) luchar sigilosamente es deshonroso. Tampoco recibe la aprobación de su tío, el señor de la isla de Tsushima, que es una figura paterna para él."
+    }
+]

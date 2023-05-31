@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Games</title>
+    <link rel="stylesheet" href="./css/games.css">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script defer src="./js/apps.js"></script>
+</head>
+<body>
+    <header>
+        <div id="logo">
+            <a href="./index.html" class="fa-brands fa-pied-piper-alt"></a>
+            <a id="titulo" href="./index.html">KINO'S GAMES</a>
+        </div>
+
+        <nav id="navegacion">
+            <a href="./index.html"><i class="fa-solid fa-house"></i>Inicio</a>
+            <a href="./games.html"><i class="fa-solid fa-list"></i>Juegos</a>
+            <a href="./games-info.html"><i class="fa-solid fa-info"></i>Detalles de los juegos</a>
+            <a href="./sobre-mi.html"><i class="fa-solid fa-user"></i>Sobre mi</a> 
+        </nav>
+
+        <a href="../admin/index.html" id="user">
+            <p>Iniciar Sesión</p>
+            <span><i class="fa-solid fa-right-to-bracket"></i></span>
+        </a>
+    </header>
+
+    <section id="interaccion">
+        <div id="search">
+            <input onchange="buscarJuegos()" id="search-input" type="search" name="busqueda" placeholder="Buscar...">
+        </div>
+
+        <div id="opciones">
+            <div id="filtrar">
+                <i class="fa-solid fa-filter"></i>
+                <select name="order" id="orderFilter" onchange="filtrarJuegos()">
+                    <option value="-1">-</option>
+                    <option value="Nombre">Por nombre (A-Z)</option>
+                    <option value="Pegi">Por pegi (Menor a Mayor)</option>
+                    <option value="Plataforma">Por plataforma (Play-Station, Xbox, PC)</option>
+                </select>
+            </div>
+        </div>
+    </section>
+
+    <article id="grid-general">
+        <main  id="grid-games">
+            <button type="button" class="buy-btn" data-id="${game.id}" onclick="comprarProducto()">Comprar</button>
+        </main>
+
+        <div class="cart-shopping-container">
+            <h2>Carrito</h2>
+            <div id="cartUser"></div>
+        </div>
+    </article>
+
+    <footer>
+        <p class="copyright"><i class="fa-sharp fa-solid fa-copyright"></i>Copyright reserved to Marcos Alvarado Martínez</p>
+        <div id="icons-socialmedia">
+            <a href="https://www.instagram.com"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://github.com/marcosalvaradomartinez"><i class="fa-brands fa-github"></i></a>
+        </div>
+        <div>No dudes nunca de quienes son los mejores</div><span>KINO'S GAMES</span>
+    </footer>
+</body>
+</html>

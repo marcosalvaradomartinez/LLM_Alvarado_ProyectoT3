@@ -1,0 +1,257 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: black;
+    color: white;
+    font-family: 'Hind';
+}
+
+/* HEADER */
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    height: 60px;
+    width: 100%;
+
+    background-color: white;
+}
+
+#logo{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    width: 18%;
+    margin-left: 5px;
+
+    font-weight: bolder;
+}
+
+#logo .fa-pied-piper-alt{
+    font-size: 3.4rem;
+    color: black;
+    text-decoration: none;
+}
+
+#logo #titulo{
+    font-size: 40px;
+    text-decoration: none;
+    color: black;
+}
+
+#navegacion{
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#navegacion a{
+    text-decoration: none;
+    color: black;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+#navegacion i{
+    margin-right: 10px;
+}
+
+#user{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    width: 10%;
+    padding: 7px;
+    background-color:white;
+    color: black;
+    border: 1px solid black;
+    border-radius: 20px;
+    margin-right: 10px;
+
+    text-decoration: none;
+
+    cursor: pointer;
+}
+
+#user p{
+    font-size: 20px;
+}
+
+/*FIN DEL HEADER */
+
+/* SWIPER */
+.swiper{
+    width: 100%;
+    height: 60rem;
+
+    margin: 0.5rem 0;
+}
+
+swiper-container{
+    width: 90%;
+    height: 60rem;
+    cursor: pointer;
+    padding: 0.5rem 0;
+}
+
+#slide{
+    background-image: url(../img/slider1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 800%;
+}
+
+#slide2{
+    background-image: url(../img/slider2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 80%;
+}
+
+#slide3{
+    background-image: url(../img/slider3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 80%;
+}
+
+#slide4{
+    background-image: url(../img/slider4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 80%;
+}
+
+/* Links a otros HTML */
+#grid-paginas{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    justify-content: center;
+    gap: 1rem;
+    width: 100%;
+    position: relative;
+}
+
+#grid-paginas h3{
+    font-size: 40px;
+    font-weight: bolder;
+    border-bottom: 3px solid black;
+}
+
+#grid-paginas a{
+    text-decoration: none;
+    color: black;
+    font-size: 35px;
+    color: white;
+    border: 1px solid white;
+    border-radius: 10px;
+    background-color: black;
+    padding: 0.5rem;
+    margin-top: 10px;
+}
+
+#grid-paginas p{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+#pagina-juegos, #pagina-info, #pagina-sobremi{
+    width: 90%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 10px 3rem;
+    text-align: center;
+
+    background-color: white;
+    color: black;
+
+    border-radius: 20px;
+}
+
+#pagina-juegos img{
+    width: 100%;
+}
+#pagina-info img{
+    width: 90%;
+}
+
+#pagina-sobremi img{
+    width: 60%;
+}
+
+footer{
+    width: 100%;
+    height: 17vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background-color: white;
+    color: black;
+}
+
+footer>p{
+    font-size: 40px;
+    margin: 15px;
+}
+
+.copyright{
+    font-size: 20px;
+    color: rgb(99, 94, 94);
+}
+
+.copyright i{
+    margin: 5px;
+}
+
+
+#icons-socialmedia{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#icons-socialmedia a{
+    text-decoration: none;
+}
+
+#icons-socialmedia i{
+    width: 2.5rem;
+    height: 2.5rem;
+    color: black;
+    
+    border-radius: 55%;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    font-size: 24px;
+}
+
+#icons-socialmedia i:hover{
+    background-color: #000000;
+    color: white;  
+    transition: all ease 0.5s;
+    cursor: pointer;
+}
+
+footer>span{
+    font-size: 25px;
+}
